@@ -8,7 +8,7 @@ import lombok.Setter;
 public class ResponseDTO {
     private String status;
     private Integer code;
-    private String data;
+    private Object data;
 
     private ResponseDTO(ResponseBuilder builder) {
         this.setStatus(builder.status);
@@ -19,7 +19,7 @@ public class ResponseDTO {
     public static class ResponseBuilder {
         private String status;
         private Integer code;
-        private String data;
+        private Object data;
 
         public ResponseBuilder() {
         }
@@ -34,7 +34,7 @@ public class ResponseDTO {
             return this;
         }
 
-        public ResponseBuilder setData(String data) {
+        public ResponseBuilder setData(Object data) {
             this.data = data;
             return this;
         }
