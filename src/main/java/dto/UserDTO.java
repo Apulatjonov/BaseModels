@@ -10,5 +10,6 @@ public class UserDTO {
     public String email;
     public String phoneNumber;
     public String password;
+    public String chatId;
     public PassengerDTO passenger;
 }
