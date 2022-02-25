@@ -6,6 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ServiceDTO {
+    public Long id;
     public Long trainId;
     public Long firstStationId;
     public Long secondStationId;

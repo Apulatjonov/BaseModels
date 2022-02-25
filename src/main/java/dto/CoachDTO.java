@@ -6,6 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class CoachDTO {
+    public Long id;
     public Long classId;
     public Long trainId;
     public Integer ordinal;

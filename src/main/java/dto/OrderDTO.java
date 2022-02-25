@@ -9,6 +9,7 @@ import java.util.Set;
 @Getter
 @Setter
 public class OrderDTO {
+    public Long id;
     public UserDTO user;
     public Double total;
     public Date orderDate;

@@ -9,6 +9,7 @@ import java.util.Date;
 @Getter
 @Setter
 public class PassengerDTO extends BaseModel {
+    public Long id;
     public Long user_id;
     public String surname;
     public String first_name;
