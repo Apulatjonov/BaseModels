@@ -10,5 +10,5 @@ public class UserDTO {
     public String email;
     public String phoneNumber;
     public String password;
-    public Long passengerId;
+    public PassengerDTO passenger;
 }

@@ -8,5 +8,5 @@ import lombok.Setter;
 public class RouteDTO {
     public Long id;
     public String name;
-    public Long serviceId;
+    public ServiceDTO service;
 }

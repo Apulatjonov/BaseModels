@@ -7,9 +7,9 @@ import lombok.Setter;
 @Setter
 public class ServiceDTO {
     public Long id;
-    public Long trainId;
-    public Long firstStationId;
-    public Long secondStationId;
+    public TrainDTO train;
+    public StationDTO firstStationId;
+    public StationDTO secondStationId;
     public Double price;
     public String duration;
 }

@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import model.BaseModel;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 @Getter
 @Setter
@@ -14,7 +14,7 @@ public class PassengerDTO extends BaseModel {
     public String surname;
     public String first_name;
     public String middle_name;
-    public Date birthdate;
+    public LocalDate birthdate;
     public Gender gender;
     public String document_type;
     public String country_issue;

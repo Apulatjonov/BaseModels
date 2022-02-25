@@ -3,7 +3,7 @@ package dto;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.Set;
 
 @Getter
@@ -12,6 +12,6 @@ public class OrderDTO {
     public Long id;
     public UserDTO user;
     public Double total;
-    public Date orderDate;
+    public LocalDate orderDate;
     public Set<TicketDTO> tickets;
 }
