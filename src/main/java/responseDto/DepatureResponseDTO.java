@@ -1,4 +1,4 @@
-package dto;
+package responseDto;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,10 +7,10 @@ import java.util.Date;
 
 @Getter
 @Setter
-public class DepatureDTO {
+public class DepatureResponseDTO {
     public Long id;
-    public TrainDTO trainId;
-    public RouteDTO routeId;
+    public TrainResponseDTO train;
+    public RouteResponseDTO route;
     public Long duration;
     public Date date;
 }

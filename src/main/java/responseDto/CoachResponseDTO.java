@@ -1,14 +1,14 @@
-package dto;
+package responseDto;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class CoachDTO {
+public class CoachResponseDTO {
     public Long id;
-    public ClassDTO classId;
-    public TrainDTO trainId;
+    public ClassResponseDTO classDTO;
+    public TrainResponseDTO trainDTO;
     public Integer ordinal;
     public String type;
     public Integer seatNumber;

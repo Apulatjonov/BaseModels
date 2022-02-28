@@ -1,4 +1,4 @@
-package dto;
+package responseDto;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,10 +8,10 @@ import java.util.Set;
 
 @Getter
 @Setter
-public class OrderDTO {
+public class OrderResponseDTO {
     public Long id;
-    public UserDTO userId;
+    public UserResponseDTO user;
     public Double total;
     public LocalDate orderDate;
-    public Set<TicketDTO> tickets;
+    public Set<TicketResponseDTO> tickets;
 }

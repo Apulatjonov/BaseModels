@@ -1,12 +1,12 @@
-package dto;
+package responseDto;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class RouteDTO {
+public class RouteResponseDTO {
     public Long id;
     public String name;
-    public ServiceDTO serviceId;
+    public ServiceResponseDTO service;
 }
