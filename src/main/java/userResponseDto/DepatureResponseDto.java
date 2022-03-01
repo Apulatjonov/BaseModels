@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import responseDto.DepatureResponseDTO;
+import responseDto.ServiceResponseDTO;
 
 import java.util.List;
 
@@ -13,9 +14,9 @@ import java.util.List;
 public class DepatureResponseDto {
 
     private DepatureResponseDTO detail;
+    private ServiceResponseDTO service;
     private String depature;
     private String arrival;
-    private String duration;
     private List<ClassSeat> classSeats;
 
 }

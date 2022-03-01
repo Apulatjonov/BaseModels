@@ -12,6 +12,7 @@ import java.util.List;
 public class OrderDto {
     private Long userId;
     private Long depatureId;
+    private Long serviceId;
     private Long coachId;
     private List<ReservedSeatDto> passengers;
 }

@@ -11,6 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 public class FilterResponseDto {
 
+   
    List<DepatureResponseDto> result;
 
 }
