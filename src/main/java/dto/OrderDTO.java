@@ -10,7 +10,7 @@ import java.util.Set;
 @Setter
 public class OrderDTO {
     public Long id;
-    public UserDTO userId;
+    public UserDTO user;
     public Double total;
     public LocalDate orderDate;
     public Set<TicketDTO> tickets;

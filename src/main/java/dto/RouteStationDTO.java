@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class RouteStationDTO {
     private Long id;
-    private Long route;
-    private Long station;
+    private RouteDTO route;
+    private StationDTO station;
     private Integer ordinal;
 }

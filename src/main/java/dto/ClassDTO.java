@@ -9,5 +9,5 @@ public class ClassDTO {
     public Long id;
     public String status;
     public String type;
-    public Double servicePercentage;
+    public Double percentagePrice;
 }

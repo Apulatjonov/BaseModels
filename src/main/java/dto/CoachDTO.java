@@ -7,8 +7,8 @@ import lombok.Setter;
 @Setter
 public class CoachDTO {
     public Long id;
-    public ClassDTO classId;
-    public TrainDTO trainId;
+    public ClassDTO clazz;
+    public TrainDTO train;
     public Integer ordinal;
     public String type;
     public Integer seatNumber;

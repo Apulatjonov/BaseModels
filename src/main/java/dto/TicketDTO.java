@@ -7,10 +7,10 @@ import lombok.Setter;
 @Setter
 public class TicketDTO {
     public Long id;
-    public OrderDTO orderId;
-    public PassengerDTO passengerId;
-    public CoachDTO coachId;
+    public OrderDTO order;
+    public PassengerDTO passenger;
+    public CoachDTO coach;
     public Integer seatOrdinal;
-    public DepatureDTO depatureId;
-    public ServiceDTO serviceId;
+    public DepatureDTO depature;
+    public ServiceDTO service;
 }
