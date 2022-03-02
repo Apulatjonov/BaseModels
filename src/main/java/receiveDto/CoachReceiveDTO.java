@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 public class CoachReceiveDTO {
     public Long id;
-    public String className;
+    public String classStatus;
     public Long trainId;
     public Integer ordinal;
     public String type;
