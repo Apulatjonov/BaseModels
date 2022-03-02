@@ -3,10 +3,7 @@ package model;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
+import javax.persistence.*;
 
 @Getter
 @Setter
@@ -14,5 +11,6 @@ import javax.persistence.MappedSuperclass;
 public class BaseModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(insertable = true, name = "id")
     private Long id;
 }
